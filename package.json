@@ -1,0 +1,38 @@
+{
+  "name": "alphab",
+  "version": "0.0.0",
+  "description": "Just an alphabet list",
+  "author": {
+    "name": "Kyoz",
+    "email": "banminkyoz@gmail.com"
+  },
+  "repository": "banminkyoz/alphab",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "keywords": [
+    "node",
+    "module",
+    "node_module",
+    "alphabet",
+    "alphab"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "execa": "^0.10.0",
+    "xo": "^0.21.1"
+  },
+  "xo": {
+    "space": 2
+  }
+}
